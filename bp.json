@@ -1,0 +1,61 @@
+{
+	"producer_account_name": "bp.boid",
+	"org": {
+		"candidate_name": "boid.com",
+		"website": "https://eos.boid.com",
+		"code_of_conduct": "https://eos.boid.com/code.html",
+		"ownership_disclosure": "https://eos.boid.com/ownership.html",
+		"email": "eos@boid.com",
+		"branding": {
+			"logo_256": "https://eos.boid.com/BoidLogo-256.png",
+			"logo_1024": "https://eos.boid.com/BoidLogo-lg.png",
+			"logo_svg": "https://eos.boid.com/boidlogo.svg"
+		},
+		"location": {
+			"name": "Tenerife, Canary Islands, Spain",
+			"country": "ES",
+			"latitude": 28.467319,
+			"longitude": -16.247113
+		},
+		"social": {
+			"steemit": "boidcom",
+			"twitter": "boidcom",
+			"youtube": "channel/UCL4I3DksM41qPKih2PbiQ7g",
+			"facebook": "boidcom",
+			"github": "boid-com",
+			"reddit": "boidcom",
+			"keybase": "boidcom",
+			"telegram": "Boidcom_official",
+			"wechat": ""
+		}
+	},
+	"nodes": [{
+			"location": {
+				"name": "Tenerife, Canary Islands, Spain",
+				"country": "ES",
+				"latitude": 28.467319,
+				"longitude": -16.247113
+			},
+			"node_type": "producer",
+			"p2p_endpoint": "",
+			"api_endpoint": "",
+			"ssl_endpoint": ""
+		},
+		{
+			"location": {
+				"name": "Tenerife, Canary Islands, Spain",
+				"country": "ES",
+				"latitude": 28.467319,
+				"longitude": -16.247113
+			},
+			"node_type": "query",
+			"p2p_endpoint": "",
+			"api_endpoint": "",
+			"ssl_endpoint": "https://eos.api.boid.com",
+			"features": [
+				"chain-api",
+				"account-query"
+			]
+		}
+	]
+}
